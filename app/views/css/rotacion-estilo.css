@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    transition: all 0.2s ease-in;
+
+}
+
+body, html{
+    
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma,sans-serif;
+}
+
+section#contenedor_ppal_rotar{
+    background: url('../img/fondo-login.jpg') center center / cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+    #contenedor_rotar {
+        background: rgba(255, 255, 255, 0.02);
+        backdrop-filter: blur(8px);
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        display: grid;
+        place-items: center;
+
+    }
+        #contenedor_form_rotar{
+            width: 350px;
+            height: 600px;
+            background: rgba(244, 244, 244, 0.7);
+            backdrop-filter: blur(9.15px);
+            border-radius: 17px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+            #contenedor_logo_rotar{
+                background: url('../img/sub-fondo-login.jpg') center center / cover no-repeat;
+                width: 100%;
+                height: 23%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 17px 17px 0px 0px;
+            }
+                #cont_logo_rotar figure#logo_rotar img{
+                    width: 70px;
+                    height: 75px;
+                }
+            #form_acceso_rotar{
+                display: grid;
+                padding: 20px 25px;
+
+            }
+                #form_acceso_rotar label{
+
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 15px;
+                    margin-bottom: 10px;
+                    color: #506B53;
+
+
+                }
+                #form_acceso_rotar .contenedor_campos_fecha{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 28px;
+                    
+                }
+                    .campo_fecha, .campo_hora {
+                        width: calc(50% - 1px);
+                    }   
+                        
+                        
+                        .campo_fecha label {
+                            margin-bottom: 5px;
+                        }
+                        .campo_fecha .campo-fechas{
+                            height: 47px;
+                            border: none;
+                            padding: 0px 12px;
+                            font-size: 16px;
+                            color: #506B53;
+                            background: #D5D5D5;
+                            border-radius: 8px;
+                            width: 100%;
+                        }
+                        
+                        label {
+                            margin-bottom: 5px;
+                        }
+                #form_acceso_rotar .campo{
+                    height: 47px;
+                    border: none;
+                    padding: 0px 35px;
+                    font-size: 12px;
+                    color: #506B53;
+                    background: #D5D5D5;
+                    border-radius: 8px;
+
+                }
+                #form_acceso_rotar .campo::placeholder{
+                    font-size: 16px;
+                    vertical-align: middle;
+                    color: #506B53;
+                }
+                #form_acceso_rotar button#btn_inicio_sesion{
+                    margin-top: 15px;
+                    height: 47px;
+                    border: none;
+                    font-size: 24px;
+                    color: #D5D5D5;
+                    background: linear-gradient(90deg, #8E9D68 0%, #315B06 100%);
+                    border-radius: 8px;
+                    
+                    
+                }
+                #cont_logo_zobyte{
+                    width: 100%;
+                    height: 100px;                
+
+                }
+                #figure_logo_zobyte{
+
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-content: space-around;
+                    justify-content: center;
+                    padding: 0;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    margin-bottom: 0px;
+                    margin-top: 0px;
+                }
+                #figure_logo_zobyte img{
+                    
+                    width: 152px;
+                    height: 80px;
+
+                }
+            
+                .campo-select{
+                    font-size: 1.5em !important;
+                    height: 47px;
+                    width: 100%;
+                    border: none;
+                    padding: 0px 5px;
+                    color: #506B53;
+                    background: #D5D5D5;
+                    border-radius: 8px;
+                    margin-bottom: 20px;
+                }
+
